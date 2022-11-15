@@ -1,0 +1,85 @@
+body {
+    background-color: rgb(228, 240, 231);
+
+}
+
+#create {
+
+    margin: auto;
+    margin-top: 50px;
+    width: 30%;
+    text-align: center;
+    display: grid;
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    justify-content: flex-start;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+}
+
+input[type="text"],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type="submit"] {
+    background-color: #2b619e;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+input[type="number"],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+#create~h1 {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 30px;
+}
+
+table {
+    
+    width: 80%;
+    margin: auto;
+    font-weight: bold;
+    border-collapse: collapse ;
+    text-align: center;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    margin-bottom: 50px;
+}
+
+table td,
+table th {
+  border: 1px solid rgb(15, 14, 14);
+  padding: 8px;
+  text-align: center;
+  background: rgb(231, 231, 3);
+}
+table tr:hover {
+  background-color: #ddd;
+}
